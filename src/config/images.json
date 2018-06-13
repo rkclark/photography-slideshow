@@ -1,23 +1,39 @@
 [
   {
+    "src": "https://farm1.staticflickr.com/895/28881932728_ce43e5dd80_k.jpg"
+  },
+  {
     "src": "https://farm2.staticflickr.com/1741/28746733998_2c66c42110_k.jpg",
-    "author": "Rick Clark",
+    "title": "Breakwater",
+    "photographer": "Rick Clark",
     "watermarkPosition": "right"
   },
   {
     "src": "https://farm2.staticflickr.com/1750/42620138601_5e6317c240_k.jpg",
-    "author": "Rick Clark",
+    "title": "Millennium Bridge",
+    "photographer": "Rick Clark",
     "watermarkPosition": "right"
   },
   {
     "src": "https://farm2.staticflickr.com/1725/40812186680_2c12638694_k.jpg",
-    "author": "Rick Clark",
+    "title": "HMS Belfast",
+    "photographer": "Rick Clark",
     "watermarkPosition": "right"
   },
   {
     "src": "https://farm2.staticflickr.com/1755/28746736418_d649611d80_k.jpg",
-    "author": "Rick Clark",
+    "title": "Louvre",
+    "photographer": "Rick Clark",
+    "watermarkPosition": "right"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1732/28885066188_18a3870964_k.jpg",
+    "photographer": "Tom Murton",
+    "watermarkPosition": "right"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1733/42759063431_085cb34372_k.jpg",
+    "photographer": "Tom Murton",
     "watermarkPosition": "right"
   }
 ]
-   

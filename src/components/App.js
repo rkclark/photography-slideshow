@@ -50,21 +50,29 @@ export default class App extends React.Component {
           >
             {state => (
               <div
-                className="imageContainer"
                 style={{
-                  background: `url(${
-                    image.src
-                  }) center center / contain fixed no-repeat`,
                   ...defaultStyle,
                   ...transitionStyles[state],
                 }}
-              />
+              >
+                <div
+                  className="imageContainer"
+                  style={{
+                    background: `url(${
+                      image.src
+                    }) center center / contain fixed no-repeat`,
+                  }}
+                />
+                <div
+                  className={`watermark watermark-${image.watermarkPosition}`}
+                >
+                  <p className="title">{image.title}</p>
+                  <p className="photographer">{image.photographer}</p>
+                </div>
+              </div>
             )}
           </Transition>
         </TransitionGroup>
-        <span className={`watermark watermark-${image.watermarkPosition}`}>
-          {image.author}
-        </span>
       </div>
     );
   }

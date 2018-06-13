@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body, html, #root {
   height: 100%;
@@ -27,7 +27,7 @@ body, html, #root {
   color: white;
   opacity: 0.5;
   font-size: 30px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
   text-align: right;
   padding: 2.5%;
@@ -39,6 +39,14 @@ body, html, #root {
 
 .watermark-center {
   text-align: center;
+}
+
+.title {
+  margin: 0 0 15px;
+}
+
+.photographer {
+  margin: 0;
 }
 
 .image-enter {
