@@ -33,6 +33,7 @@
     "serve": "node server",
     "style": "eslint '**/*.js'",
     "style-fix": "eslint --fix '**/*.js'",
-    "precommit": "npm run style"
+    "precommit": "npm run style",
+    "postinstall" : "npm run build"
   }
 }
