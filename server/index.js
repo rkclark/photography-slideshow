@@ -27,4 +27,4 @@ process.on('SIGTERM', () => {
 });
 
 // lets get this show on the road!
-server.listen(3001);
+server.listen(process.env.PORT || 3001);
