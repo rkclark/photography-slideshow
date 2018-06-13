@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.3",
+    "express-static-gzip": "^0.3.2",
+    "helmet": "^3.12.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-transition-group": "^2.3.1"
@@ -27,6 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "serve": "node server",
     "style": "eslint '**/*.js'",
     "style-fix": "eslint --fix '**/*.js'",
     "precommit": "npm run style"
