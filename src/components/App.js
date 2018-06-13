@@ -1,8 +1,20 @@
 import React from 'react';
+import { TransitionGroup, Transition } from 'react-transition-group';
 import images from '../config/images.json';
 import { SLIDESHOW_SPEED } from '../config/appSettings';
 import './App.css';
 
+const duration = 1000;
+
+const defaultStyle = {
+  transition: `opacity ${duration}ms ease-in-out`,
+  opacity: 0,
+};
+
+const transitionStyles = {
+  entering: { opacity: 0 },
+  entered: { opacity: 1 },
+};
 export default class App extends React.Component {
   constructor() {
     super();
@@ -29,14 +41,27 @@ export default class App extends React.Component {
 
     return (
       <div className="container">
-        <div
-          className="imageContainer"
-          style={{
-            background: `url(${
-              image.src
-            }) center center / contain fixed no-repeat`,
-          }}
-        />
+        <TransitionGroup component={null}>
+          <Transition
+            timeout={1000}
+            classNames="image"
+            appear
+            key={this.state.imageIndex}
+          >
+            {state => (
+              <div
+                className="imageContainer"
+                style={{
+                  background: `url(${
+                    image.src
+                  }) center center / contain fixed no-repeat`,
+                  ...defaultStyle,
+                  ...transitionStyles[state],
+                }}
+              />
+            )}
+          </Transition>
+        </TransitionGroup>
         <span className={`watermark watermark-${image.watermarkPosition}`}>
           {image.author}
         </span>
