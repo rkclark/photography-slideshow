@@ -15,6 +15,8 @@ When the app starts it will cycle through the array of images and display them i
 
 ## Developing
 
+### Getting Started
+
 This is a very basic app created with `create-react-app`.
 
 To get started:
@@ -24,3 +26,8 @@ To get started:
 - `npm start`
 
 There are no tests at present!
+
+### Build and Serve
+
+To create the production build: `npm run build`
+To start the production server: `npm run serve`
