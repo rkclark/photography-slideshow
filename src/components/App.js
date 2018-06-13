@@ -1,8 +1,20 @@
 import React from 'react';
-import images from '../data/images.json';
+import images from '../config/images.json';
 import './App.css';
 
-export default function App() {
-  console.log(images);
-  return <div>hello world</div>;
+export default class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      imageIndex: 0,
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <img src={images[this.state.imageIndex].src} alt="Curent slide" />
+      </div>
+    );
+  }
 }
