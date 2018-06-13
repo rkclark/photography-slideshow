@@ -28,6 +28,6 @@
     "eject": "react-scripts eject",
     "style": "eslint '**/*.js'",
     "style-fix": "eslint --fix '**/*.js'",
-    "precommit": "npm run style && npm run test"
+    "precommit": "npm run style"
   }
 }
