@@ -29,7 +29,14 @@ export default class App extends React.Component {
 
     return (
       <div className="container">
-        <img className="image" src={image.src} alt="Curent slide" />
+        <div
+          className="imageContainer"
+          style={{
+            background: `url(${
+              image.src
+            }) center center / contain fixed no-repeat`,
+          }}
+        />
         <span className={`watermark watermark-${image.watermarkPosition}`}>
           {image.author}
         </span>
