@@ -70,7 +70,7 @@ body, html, #root {
 .slideButton {
   border: none;
   background: rgba(0, 0, 0, 0.3);
-  padding: 20rem 2rem;
+  padding: 10rem 1rem;
   z-index: 10;
   opacity: 0;
   transition: opacity 0.3s ease-in;
@@ -84,7 +84,7 @@ body, html, #root {
 
 .slideButtonPrevious {
   position: absolute;
-  top: calc(50% - 24rem);
+  top: calc(50% - 12rem);
   left: 0;
 }
 
@@ -94,7 +94,7 @@ body, html, #root {
 
 .slideButtonNext {
   position: absolute;
-  top: calc(50% - 24rem);
+  top: calc(50% - 12rem);
   right: 0;
 }
 
