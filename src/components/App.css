@@ -81,6 +81,9 @@ body, html, #root {
   opacity: 100;
 }
 
+.slideButton:focus {
+  outline: none;
+}
 
 .slideButtonPrevious {
   position: absolute;
