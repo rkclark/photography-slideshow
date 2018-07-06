@@ -27,16 +27,13 @@ export default class App extends React.Component {
     this.getPreviousImageIndex = this.getPreviousImageIndex.bind(this);
     this.slideToNext = this.slideToNext.bind(this);
     this.slideToPrevious = this.slideToPrevious.bind(this);
+    this.slideOnInterval = this.slideOnInterval.bind(this);
+
+    this.inverval = null;
   }
 
   componentDidMount() {
-    window.setInterval(() => {
-      const newImageIndex = this.getNextImageIndex();
-
-      this.setState({
-        imageIndex: newImageIndex,
-      });
-    }, SLIDESHOW_SPEED);
+    this.slideOnInterval();
   }
 
   getNextImageIndex() {
@@ -57,6 +54,9 @@ export default class App extends React.Component {
     this.setState({
       imageIndex: newImageIndex,
     });
+
+    clearInterval(this.interval);
+    this.slideOnInterval();
   }
 
   slideToPrevious() {
@@ -64,6 +64,19 @@ export default class App extends React.Component {
     this.setState({
       imageIndex: newImageIndex,
     });
+
+    clearInterval(this.interval);
+    this.slideOnInterval();
+  }
+
+  slideOnInterval() {
+    this.interval = window.setInterval(() => {
+      const newImageIndex = this.getNextImageIndex();
+
+      this.setState({
+        imageIndex: newImageIndex,
+      });
+    }, SLIDESHOW_SPEED);
   }
 
   render() {
