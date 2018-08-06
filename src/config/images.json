@@ -3,30 +3,19 @@
     "src": "https://farm1.staticflickr.com/895/28881932728_ce43e5dd80_k.jpg"
   },
   {
-    "src": "https://farm2.staticflickr.com/1741/28746733998_2c66c42110_k.jpg",
-    "title": "Breakwater",
-    "photographer": "Rick Clark",
-    "watermarkPosition": "right"
+    "src": "https://farm1.staticflickr.com/853/43086898084_61e7456585_o.jpg"
   },
   {
-    "src": "https://farm2.staticflickr.com/1750/42620138601_5e6317c240_k.jpg",
-    "title": "Millennium Bridge",
-    "photographer": "Rick Clark",
-    "watermarkPosition": "right"
+    "src": "https://farm1.staticflickr.com/920/29800477398_da9c0f54ad_k.jpg"
   },
   {
-    "src": "https://farm2.staticflickr.com/1725/40812186680_2c12638694_k.jpg",
-    "title": "HMS Belfast",
-    "photographer": "Rick Clark",
-    "watermarkPosition": "right"
+    "src": "https://farm1.staticflickr.com/923/43623984072_484d50a9e7_k.jpg"
   },
   {
-    "src": "https://farm2.staticflickr.com/1755/28746736418_d649611d80_k.jpg",
-    "title": "Louvre",
-    "photographer": "Rick Clark",
-    "watermarkPosition": "right"
+    "src": "https://farm1.staticflickr.com/848/42764663885_30bd9dc77d_k.jpg"
   },
   {
+<<<<<<< HEAD
     "src": "https://farm2.staticflickr.com/1732/28885066188_18a3870964_k.jpg",
     "photographer": "Tom Murton",
     "watermarkPosition": "right"
@@ -77,5 +66,9 @@
     "title": "Thai Temple",
     "photographer": "Hamish Forbes",
     "watermarkPosition": "right"
+=======
+    "src": "https://farm1.staticflickr.com/862/43836017002_e6af423af3_b.jpg" 
+>>>>>>> upstream/master
   }
 ]
+

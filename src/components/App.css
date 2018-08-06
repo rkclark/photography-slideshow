@@ -66,3 +66,42 @@ body, html, #root {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
+
+.slideButton {
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10rem 1rem;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  cursor: pointer;
+}
+
+.slideButton:hover {
+  opacity: 100;
+}
+
+.slideButton:focus {
+  outline: none;
+}
+
+.slideButtonPrevious {
+  position: absolute;
+  top: calc(50% - 12rem);
+  left: 0;
+}
+
+.slideButtonPrevious img {
+  transform: scaleX(-1);
+}
+
+.slideButtonNext {
+  position: absolute;
+  top: calc(50% - 12rem);
+  right: 0;
+}
+
+.buttonIcon {
+  width: 4rem;
+  height: 4rem;
+}
