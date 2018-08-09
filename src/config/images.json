@@ -63,5 +63,11 @@
     "src": "https://farm1.staticflickr.com/862/43186529324_db93b7831a_b.jpg",
     "photographer": "Romesh Dasan",
     "title": "Turkish Steps"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1800/43036266605_25da2209c7_o.jpg",
+    "title": "Brighton Spray",
+    "photographer": "Dewi Rees",
+    "watermarkPosition": "right"
   }
 ]
