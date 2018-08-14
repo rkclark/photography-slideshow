@@ -15,7 +15,7 @@
     "src": "https://farm1.staticflickr.com/848/42764663885_30bd9dc77d_k.jpg"
   },
   {
-    "src": "https://farm1.staticflickr.com/862/43836017002_e6af423af3_b.jpg" 
+    "src": "https://farm1.staticflickr.com/862/43836017002_e6af423af3_b.jpg"
   },
   {
     "src": "https://farm2.staticflickr.com/1776/42081584650_a7b778860f_o.png",
@@ -69,5 +69,27 @@
     "title": "Brighton Spray",
     "photographer": "Dewi Rees",
     "watermarkPosition": "right"
+  },
+  {
+    "src": "https://c2.staticflickr.com/2/1812/29079584097_b003c72685_b.jpg",
+    "title": "Medewi, Bali",
+    "photographer": "Abi Travers",
+    "watermarkPosition": "right"
+  },
+  {
+    "src": "https://c1.staticflickr.com/1/935/42206912450_74b44f8838_h.jpg",
+    "title": "Mui Ne, Vietnam",
+    "photographer": "Abi Travers",
+    "watermarkPosition": "right"
+  },
+  {
+    "src": "https://c2.staticflickr.com/2/1836/44016172691_4e0cc692bf_b.jpg",
+    "title": "Ninh Bình, Vietnam",
+    "photographer": "Abi Travers"
+  },
+  {
+    "src": "https://c2.staticflickr.com/2/1835/44016608841_c8f762bfb5_k.jpg",
+    "title": "Tokyo, Japan",
+    "photographer": "Abi Travers"
   }
 ]
