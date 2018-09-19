@@ -3,21 +3,30 @@
     "src": "https://farm1.staticflickr.com/895/28881932728_ce43e5dd80_k.jpg"
   },
   {
-    "src": "https://farm1.staticflickr.com/853/43086898084_61e7456585_o.jpg"
+    "src": "https://farm2.staticflickr.com/1848/43741091775_8789f5f7d2_o.png"
   },
   {
-    "src": "https://farm1.staticflickr.com/920/29800477398_da9c0f54ad_k.jpg"
+    "src": "https://farm2.staticflickr.com/1841/42840557830_69170bccde_o.jpg",
+    "photographer": "Dewi Rees",
+    "title": "Welsh Valleys"
   },
   {
-    "src": "https://farm1.staticflickr.com/923/43623984072_484d50a9e7_k.jpg"
+    "src": "https://farm1.staticflickr.com/862/42773037665_4ef37da27d_h.jpg",
+    "photographer": "Stacey Fenton",
+    "title": "Leeds Castle"
   },
   {
-    "src": "https://farm1.staticflickr.com/848/42764663885_30bd9dc77d_k.jpg"
+    "src": "https://farm1.staticflickr.com/931/29805891788_57c9943580_h.jpg",
+    "photographer": "Stacey Fenton",
+    "title": "Salzburg"
   },
   {
-    "src": "https://farm1.staticflickr.com/862/43836017002_e6af423af3_b.jpg" 
+    "src": "https://farm2.staticflickr.com/1898/44018381404_23d732d33c_h.jpg",
+    "photographer": "Romesh Dasan",
+    "title": "Daybreak in the Costa Brava"
   },
   {
+<<<<<<< HEAD
     "src": "https://farm2.staticflickr.com/1776/42081584650_a7b778860f_o.png",
     "photographer": "Hamish Forbes"
   },
@@ -32,14 +41,25 @@
   {
     "src": "https://farm2.staticflickr.com/1815/42078970480_a171155046_k.jpg",
     "photographer": "RICK CLARK"
+=======
+    "src": "https://farm2.staticflickr.com/1857/43827953095_153270b9f5_h.jpg",
+    "photographer": "Romesh Dasan",
+    "title": "Dali"
+>>>>>>> 879ebd1b0511500118faa35f9c21bf1f2e29173a
   },
   {
-    "src": "https://farm1.staticflickr.com/850/43887614261_9761c86aa0_k.jpg",
-    "photographer": "RICK CLARK"
+    "src": "https://farm2.staticflickr.com/1879/30866148028_a11e84a06c_h.jpg",
+    "photographer": "Romesh Dasan",
+    "title": "Distorted Shapes"
   },
   {
-    "src": "https://farm2.staticflickr.com/1814/43887615991_e9693b5d06_k.jpg",
-    "photographer": "RICK CLARK"
+    "src": "https://farm2.staticflickr.com/1845/44688173642_a522292e62_h.jpg",
+    "photographer": "Ammarah Ahmad",
+    "title": "Comino"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1883/42936713090_711cbbb2d5_o.jpg",
+    "photographer": "Dewi Rees",
+    "title": "Horses on the Downs"
   }
 ]
-

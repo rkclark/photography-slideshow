@@ -34,6 +34,6 @@
     "style": "eslint '**/*.js'",
     "style-fix": "eslint --fix '**/*.js'",
     "precommit": "npm run style",
-    "postinstall" : "npm run build"
+    "postinstall": "npm run build"
   }
 }
