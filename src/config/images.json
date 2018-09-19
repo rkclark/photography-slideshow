@@ -26,26 +26,9 @@
     "title": "Daybreak in the Costa Brava"
   },
   {
-<<<<<<< HEAD
-    "src": "https://farm2.staticflickr.com/1776/42081584650_a7b778860f_o.png",
-    "photographer": "Hamish Forbes"
-  },
-  {
-    "src": "https://farm2.staticflickr.com/1795/42081582620_23b0e2da41_o.png",
-    "photographer": "Hamish Forbes"
-  },
-  {
-    "src": "https://farm1.staticflickr.com/942/42081581090_462101bbe0_o.png",
-    "photographer": "Hamish Forbes"
-  },
-  {
-    "src": "https://farm2.staticflickr.com/1815/42078970480_a171155046_k.jpg",
-    "photographer": "RICK CLARK"
-=======
     "src": "https://farm2.staticflickr.com/1857/43827953095_153270b9f5_h.jpg",
     "photographer": "Romesh Dasan",
     "title": "Dali"
->>>>>>> 879ebd1b0511500118faa35f9c21bf1f2e29173a
   },
   {
     "src": "https://farm2.staticflickr.com/1879/30866148028_a11e84a06c_h.jpg",
@@ -61,5 +44,20 @@
     "src": "https://farm2.staticflickr.com/1883/42936713090_711cbbb2d5_o.jpg",
     "photographer": "Dewi Rees",
     "title": "Horses on the Downs"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1859/44769236691_7078e5fd9e_k.jpg"
+    "photographer": "Hamish Forbes",
+    "title": "Lutzelbourg Pop"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1857/44719963952_692d12aac1_k.jpg"
+    "photographer": "Hamish Forbes",
+    "title": "Penang The Place"
+  },
+  {
+    "src": "https://farm2.staticflickr.com/1865/30898712958_c2440bcc79_k.jpg"
+    "photographer": "Hamish Forbes",
+    "title": "Nam By Boat"
   }
 ]
