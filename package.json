@@ -23,7 +23,7 @@
     "eslint-plugin-react": "^7.9.1",
     "husky": "^0.14.3",
     "prettier": "^1.13.5",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,6 +34,6 @@
     "style": "eslint '**/*.js'",
     "style-fix": "eslint --fix '**/*.js'",
     "precommit": "npm run style",
-    "postinstall" : "npm run build"
+    "postinstall": "npm run build"
   }
 }
