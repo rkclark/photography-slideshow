@@ -1,4 +1,4 @@
-# Photography Slideshow
+# HD Photography Slideshow
 
 We use this simple photography slideshow at [comparethemarket.com](https://github.com/ComparetheMarket) to display our images in the office.
 
